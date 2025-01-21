@@ -1,9 +1,5 @@
 pipeline {
     agent any
-    tools {
-       maven 'Maven 3.8.1'
-        jdk 'JDK 17.0.11'
-    }
     environment {
         SONAR_URL = 'http://sonarqube:9000'
         NEXUS_URL = 'http://nexus:8081'
