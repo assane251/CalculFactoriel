@@ -14,7 +14,7 @@ public abstract class CalculFactoriel {
      * @param x le nombre dont on veut calculer la factorielle
      * @return la factorielle de x
      */
-    public int calculateFactoriel(int x) {
+    public static int calculateFactoriel(int x) {
         return x == 0 || x == 1 ? 1 : x * calculateFactoriel(x - 1);
     }
 }
